@@ -1,0 +1,10 @@
+.tab {
+    font-size: 14pt;
+    font-weight: 700;
+    display: flex;
+    color: rgb(103, 103, 103);
+}
+.tab > div {
+    margin-left: 5px;
+    font-weight: 400;
+}

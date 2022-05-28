@@ -1,0 +1,92 @@
+.formExpert {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    align-items: flex-start;
+    margin: auto;
+    margin-left: 90px;
+}
+
+.option {
+    margin-bottom: 10px;
+}
+.option > label {
+    display: flex;
+    align-items: center;
+    font-size: 16pt;
+}
+.option > label > input[type="checkbox"] {
+    height: 20px;
+    width: 20px;
+}
+.smallButton {
+    display: inline;
+    line-height: 0;
+    flex-direction: row;
+    height: 20px;
+    width: 20px;
+    font-weight: 700;
+    font-size: 12pt;
+    background-color: rgb(233, 109, 0);
+    color: rgb(255, 255, 255);
+    
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.smallButton:hover {
+    background-color: rgb(255, 119, 0);
+}
+
+.formText {
+    font-size: 16pt;
+    margin-bottom: 5px;
+}
+
+.expertInput {
+    background-color: rgb(236, 236, 236);
+    width: 275px;
+    height: 35px;
+    font-size: 16pt;
+
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(197, 197, 197);
+    border-radius: 5px;
+    outline: none;
+}
+.expertInput:focus {
+    border-color: rgb(255, 120, 0);
+}
+.expertInput::placeholder {
+    font-size: 16pt;
+}
+
+.description {
+    background-color: rgb(236, 236, 236);
+    width: 425px;
+    height: 150px;
+    font-size: 16pt;
+
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(197, 197, 197);
+    border-radius: 5px;
+    outline: none;
+}
+.description:focus {
+    border-color: rgb(255, 120, 0);
+}
+
+.buttons {
+    display: flex;
+    width: 300px;
+    margin-left: 0px;
+}
+
+.mb-5 {
+    margin-bottom: 5px;
+}

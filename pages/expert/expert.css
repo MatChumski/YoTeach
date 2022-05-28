@@ -1,0 +1,181 @@
+.expertContent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: justify;
+
+
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.expertContentTitle {
+    color: rgb(255, 120, 0);
+    font-size: 36pt;
+    font-weight: 700;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.expertTitle {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    border-bottom-style: solid;
+    border-width: 1px;
+    padding-bottom: 5px;
+}
+
+.expertName {
+    font-size: 20pt;
+    color: rgb(255, 120, 0);
+    font-weight: 700;
+}
+
+.expertContentText {
+    font-size: 16pt;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+
+.expertTags {
+    display: flex;
+    flex-direction: column;
+    font-size: 16pt;
+    font-weight: 700;
+    color: rgb(103, 103, 103);
+}
+.expertTags > div {
+    display: flex;
+    font-size: 14pt;
+    font-weight: 400;
+}
+.expertTags > div > div {
+    background-color: rgb(255, 120, 0);
+    color: rgb(255, 255, 255);
+
+    margin-right: 5px;
+
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+
+    border-radius: 10px;
+}
+
+.expertLocation {
+    font-size: 14pt;
+    font-weight: 700;
+    display: flex;
+    color: rgb(103, 103, 103);
+}
+.expertLocation > div {
+    margin-left: 5px;
+    font-weight: 400;
+}
+
+.expertFee {
+    font-size: 14pt;
+    font-weight: 700;
+    display: flex;
+    color: rgb(103, 103, 103);
+}
+.expertFee > div {
+    margin-left: 5px;
+    color: rgb(0, 128, 0);
+}
+
+.resultButton:hover {
+    background-color: rgb(255, 120, 0);
+}
+.expertService {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    font-weight: 700;
+    font-size: 14pt;
+    margin-top: 3px;
+    color: rgb(97, 97, 97);
+}
+.expertService > div {
+    background-color: rgba(0, 225, 255, 0.711);
+    text-align: center;
+    min-width: 40px;
+    font-weight: 400;
+    font-size: 12pt;
+    color: black;
+
+    margin-right: 3px;
+    margin-bottom: 1px;
+    margin-left: 3px;
+
+    padding-left: 5px;
+    padding-right: 5px;
+
+    border-radius: 20px;
+}
+
+.expertRating {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    font-weight: 700;
+    font-size: 14pt;
+    margin-top: 3px;
+    color: rgb(97, 97, 97);
+}
+.expertRating > div {
+    margin-left: 5px;
+    font-weight: 400;
+}
+.expertRating > div > label {
+    background-color: gold;
+    padding-left: 2px;
+    padding-right: 2px;
+    border-radius: 20px;
+}
+
+.expertButton {
+    width: 30%;
+    height: 45px;
+    font-size: 16pt;
+    font-weight: 400;
+
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+
+    border: none;
+    border-radius: 20px;
+
+    background-color: rgb(225, 225, 225);
+
+    cursor: pointer;
+}
+
+.bottom {
+    display: flex;
+}
+.bottom > div {
+    width: 40%;
+    font-size: 12pt;
+    font-weight: 700;
+    color: rgb(97, 97, 97);
+
+    margin-left: 15px;
+
+    padding-top: 7px;
+}
+.msgDiv {
+    display: none;
+    flex-direction: column;
+
+    margin-top: 10px;
+}
+.msgDiv > textarea {
+    width: 400px;
+    height: 100px;
+}
