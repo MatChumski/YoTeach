@@ -1,0 +1,149 @@
+body,
+html {
+    padding: 0 0 0 0;
+}
+
+body {
+    margin: 0;
+    background-color: rgb(223, 223, 223);
+    font-family: "Source Sans Pro", sans-serif;
+    overflow-y: scroll;
+    /* color: rgb(211, 144, 0); */
+}
+
+button,
+input,
+textarea,
+select {
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+a:link,
+a:active,
+a:visited,
+a:hover {
+    text-decoration: none;
+}
+
+/* scrollbar */
+/* width */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgb(212, 99, 0);
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(255, 119, 0);
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.container {
+    background-color: rgb(255, 255, 255);
+    width: 650px;
+    text-align: center;
+
+    border-style: solid;
+    border-color: rgb(197, 197, 197);
+    border-width: 1px;
+    border-radius: 10px;
+
+    margin: auto;
+    margin-top: 75px;
+
+    box-shadow: rgba(0, 0, 0, 0.258) 0px 5px 5px 3px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.contentTitle {
+    color: rgb(255, 120, 0);
+    font-size: 36pt;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.contentText {
+    font-size: 16pt;
+    margin-bottom: 15px;
+}
+
+.formInput {
+    background-color: rgb(236, 236, 236);
+    width: 275px;
+    height: 45px;
+    font-size: 16pt;
+
+    margin-bottom: 10px;
+
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(197, 197, 197);
+    border-radius: 5px;
+    outline: none;
+}
+
+.formInput:focus {
+    border-color: rgb(255, 120, 0);
+}
+
+.formInput::placeholder {
+    font-size: 16pt;
+}
+
+.formButton {
+    width: 30%;
+    height: 45px;
+    font-size: 16pt;
+    font-weight: 400;
+
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+
+    border: none;
+    border-radius: 20px;
+
+    background-color: rgb(225, 225, 225);
+
+    cursor: pointer;
+}
+
+.formButton:hover {
+    background-color: rgb(201, 201, 201);
+}
+
+.formButton.submit {
+    background-color: rgb(233, 109, 0);
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+}
+
+.formButton.submit:hover {
+    background-color: rgb(255, 120, 0);
+}
